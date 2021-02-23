@@ -1,0 +1,49 @@
+A {\bf linear list} is a sequence of $n\geq 0$ nodes {\tt X[1],X[2],$\ldots$,X[n]} whose essential structural properties involve only the relative positions between  items as they appear in a line. The only thing we care about in such structures are the facts that, if $n>0$, {\tt X[1]} is the first node and {\tt X[n]} is the last node; and if $1<k<n$, the $k$th node {\tt X[k]} is preceded by {\tt X[k-1]} and followed by {\tt X[k+1]}.
+
+\vskip 1mm
+The operations we might want to perform on linear lists include:
+
+\vskip 2mm
+{\rm i)}\qquad Gain access to the $k$th node of the list to examine and/or to change the contents of its fields.
+\vskip 2mm
+{\rm ii)}\qquad Delete the $k$th node.
+
+\vskip 2mm
+{\rm iii)}\qquad Delete the $k$th node.
+
+\vskip 2mm
+{\rm iv)}\qquad Combine two or more linear lists into a single list.
+
+\vskip 2mm
+{\rm v)}\qquad Split a linear list into two or more lists.
+
+\vskip 2mm
+{\rm vi}\qquad Make a copy of a linear list.
+
+\vskip 2mm
+{\rm vii}\qquad Determine the number of nodes in a list.
+
+\vskip 2mm
+{\rm viii}\qquad Sort the nodes of the list into ascending order based on certain fields of the nodes.
+
+\vskip 2mm
+{\rm ix}\qquad Search the list for the occurrence of a node with a particular value in some field.
+
+\vskip 3mm
+In operations {\rm (i), (ii), (iii)} the special cases $k=1$ and $k=n$ are of principal importance, since the first and last iteams of a linear list may be easier to get at than a general element is.
+
+\vskip 3mm
+Linear list in which insertions, deletions, and accesses to values occur almost always at the first or last node are frequently encountered, and we give them special names:
+
+\vskip 2mm
+A {\bf stack} is a linear list for which all insertions and deletions (and usually all accesses) are made at one end of the list.
+
+\vskip 2mm
+A {\bf queue} is a linear list for which all insertions are made at one end of the list; all deletions (and usually all accesses) are made at the other end.
+
+\vskip 2mm
+A {\bf deque} ("double-ended queue") is a linear list for which all insertions and deletions (and usually all accesses) are made at the ends of the list.
+
+
+\vfill\eject
+\bye
